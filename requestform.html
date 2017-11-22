@@ -5,11 +5,47 @@
     </head>
     <body>
             <header>
-                    <!--MT header with nav links-->
+             <!--MT header with nav links-->
+             <nav>
+                    <ul>
+                        <li>MELROSE TERRACE</li>
+                        <li>ABOUT US</li>
+                        <li>RESIDENT INFO</li>
+                        <li>FOR SALE</li>
+                        <li>CONTACT US</li>
+                    </ul>
+                </nav>
+    
                 </header>
                 <section>
-                    <h1>Recreation Room Request Form</h1>
+                    <h1>Recreation Room Reservation Request Form</h1>
+                    <p>The First Floor Recreation Rooms can be reserved by Melrose Terrace Shareholders.   
+                        This form reserves the north or south recreation rooms. The north recreation room is the large room that includes the library and where quarterly shareholder meetings are held.  
+                        The south recreation room is the large room with living area furniture. Reserving the south recreation room does not include the child's play area in the same general space.  The child's play area is first come, first serve for all children in the building.</p>
+                    <p>There is no payment necessary for reserving the recreation rooms.<br/>   Should your plans change, please update your reservation so that the room is available to others.</p>
+                    
+                    <p class="highlight">This form does not reserve the child's play area or the kitchen.</p>
+                   <p>Reserving the kitchen area can be done using the <a href="kitchenrequestform.html">Kitchen Reservation page</a> and requires a deposit of $50 to hold the reservation.</p>
                     <!--form that user completes-->
+                    <form>
+                        <p>Room
+                            <select>
+                                <option></option>
+                                <option>North Rec Room</option>
+                                <option>South Rec Room</option>
+                            </select>
+                        </p>
+                        <p>Date <input type="date"/> </p>
+                        <p>Start Time<input type="time"/></p>
+                        <p>Length Hours <input type="number"/>Minutes <input type="number"/></p>
+                        <p>Purpose (optional)<input type="text" ></p>
+                        <p>Shareholder name<input type="text" /></p>
+                        <p>Shareholder unit number<input type="number" placeholder="number only"/></p>
+                        <button type="reset">Reset Form to Start Over</button>
+                        <!--<button type="submit">Submit Request</button>-->
+                        <p><a href="confirmationform.html">Confirm Details before submitting reservation request</a></p>
+                        <p><a href="calendar.html">Cancel Reservation and return to calendar</a></p>
+                    </form>
                 </section>
     </body>
 
